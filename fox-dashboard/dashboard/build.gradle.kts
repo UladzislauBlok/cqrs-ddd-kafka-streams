@@ -8,7 +8,8 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.spring.boot.admin)
+    implementation(libs.spring.boot.admin.server)
+    implementation(libs.spring.boot.admin.client)
     
     testImplementation(libs.junit.jupiter)
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")

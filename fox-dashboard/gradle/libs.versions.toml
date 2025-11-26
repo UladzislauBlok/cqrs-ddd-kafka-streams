@@ -1,9 +1,10 @@
 [versions]
-spring-boot-admin = "3.5.3"
+spring-boot-admin = "3.5.6"
 junit-jupiter = "5.12.1"
 
 [libraries]
-spring-boot-admin = { module = "de.codecentric:spring-boot-admin-starter-server", version.ref = "spring-boot-admin" }
+spring-boot-admin-server = { module = "de.codecentric:spring-boot-admin-starter-server", version.ref = "spring-boot-admin" }
+spring-boot-admin-client = { module = "de.codecentric:spring-boot-admin-starter-client", version.ref = "spring-boot-admin" }
 junit-jupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
 
 [plugins]

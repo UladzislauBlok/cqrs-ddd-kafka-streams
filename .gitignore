@@ -27,5 +27,8 @@ replay_pid*
 *.project
 *.settings
 
+# idea
+.idea
+
 # My stuff
 test
